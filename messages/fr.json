@@ -1,0 +1,32 @@
+
+{
+  "Navigation": {
+    "home": "Accueil",
+    "verify": "Vérifier",
+    "report": "Signaler",
+    "database": "Base de données",
+    "awareness": "Sensibilisation",
+    "emergency": "Alerte d'urgence"
+  },
+  "Home": {
+    "heroTitle": "Naviguez en sécurité, identifiez les arnaques.",
+    "heroSubtitle": "Vérifiez tout lien ou numéro suspect avec notre moteur intelligent.",
+    "verifyButton": "Vérifier",
+    "placeholder": "Entrez URL ou numéro...",
+    "liveCounter": "10,500+ Arnaques bloquées",
+    "stats": {
+      "blocked": "Arnaques bloquées",
+      "active": "Signalements actifs",
+      "helped": "Utilisateurs aidés"
+    }
+  },
+  "Categories": {
+    "title": "Bibliothèque d'Arnaques",
+    "subtitle": "Informations détaillées sur tous les types de fraudes numériques.",
+    "how": "Comment ils arnaquent",
+    "safety": "Guide de sécurité",
+    "report": "Comment signaler",
+    "viewDetails": "Voir les détails",
+    "reportThis": "Signaler cette arnaque"
+  }
+}

@@ -1,0 +1,51 @@
+
+{
+  "entities": {
+    "ScamReport": {
+      "title": "Scam Report",
+      "description": "A report submitted by a user about a potential scam.",
+      "type": "object",
+      "properties": {
+        "scamType": { "type": "string" },
+        "targetId": { "type": "string", "description": "The URL or Number reported" },
+        "description": { "type": "string" },
+        "evidenceUrl": { "type": "string" },
+        "isAnonymous": { "type": "boolean" },
+        "status": { 
+          "type": "string", 
+          "enum": ["pending", "approved", "rejected"],
+          "description": "Moderation status of the report"
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "reporterName": { "type": "string" },
+        "platform": { "type": "string" }
+      },
+      "required": ["scamType", "targetId", "description", "status"]
+    },
+    "AwarenessResource": {
+      "title": "Awareness Resource",
+      "description": "An educational post about cyber security.",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "desc": { "type": "string" },
+        "date": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "desc", "date"]
+    }
+  },
+  "auth": {
+    "providers": ["password"]
+  },
+  "firestore": {
+    "/reports/{reportId}": {
+      "schema": "#/backend/entities/ScamReport",
+      "description": "Access Policy: \n1. Public: Allow create with status 'pending'. Allow list/get IF status == 'approved'.\n2. Admin (request.auth != null): Allow full CRUD (list/get/create/update/delete) on all documents."
+    },
+    "/awareness_resources/{resourceId}": {
+      "schema": "#/backend/entities/AwarenessResource",
+      "description": "Access Policy: \n1. Public: Allow get/list (Read only).\n2. Admin (request.auth != null): Allow full CRUD."
+    }
+  }
+}

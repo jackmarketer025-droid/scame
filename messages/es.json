@@ -1,0 +1,32 @@
+
+{
+  "Navigation": {
+    "home": "Inicio",
+    "verify": "Verificar",
+    "report": "Reportar",
+    "database": "Base de datos",
+    "awareness": "Concienciación",
+    "emergency": "Alerta de Emergencia"
+  },
+  "Home": {
+    "heroTitle": "Navega seguro, identifica estafas fácilmente.",
+    "heroSubtitle": "Verifica cualquier enlace o número sospechoso con nuestro motor inteligente.",
+    "verifyButton": "Verificar ahora",
+    "placeholder": "Introduce URL o número...",
+    "liveCounter": "10,500+ Estafas bloqueadas",
+    "stats": {
+      "blocked": "Estafas Bloqueadas",
+      "active": "Reportes Activos",
+      "helped": "Usuarios Ayudados"
+    }
+  },
+  "Categories": {
+    "title": "Biblioteca de Estafas",
+    "subtitle": "Información detallada sobre todo tipo de fraudes digitales.",
+    "how": "Cómo estafan",
+    "safety": "Guía de seguridad",
+    "report": "Cómo reportar",
+    "viewDetails": "Ver detalles",
+    "reportThis": "Reportar esta estafa"
+  }
+}

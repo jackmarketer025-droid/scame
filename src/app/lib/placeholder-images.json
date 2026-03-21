@@ -1,0 +1,41 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract security network background",
+      "imageUrl": "https://picsum.photos/seed/scam1/1200/600",
+      "imageHint": "cyber security network"
+    },
+    {
+      "id": "awareness-1",
+      "description": "Person identifying fake website",
+      "imageUrl": "https://picsum.photos/seed/scam2/600/400",
+      "imageHint": "fake website scam"
+    },
+    {
+      "id": "awareness-2",
+      "description": "Mobile phone with warning alert",
+      "imageUrl": "https://picsum.photos/seed/scam3/600/400",
+      "imageHint": "mobile scam warning"
+    },
+    {
+      "id": "video-1",
+      "description": "How to spot phishing scams",
+      "imageUrl": "https://picsum.photos/seed/vid1/600/337",
+      "imageHint": "phishing tutorial"
+    },
+    {
+      "id": "video-2",
+      "description": "Protect your digital banking",
+      "imageUrl": "https://picsum.photos/seed/vid2/600/337",
+      "imageHint": "bank security"
+    },
+    {
+      "id": "video-3",
+      "description": "Social media identity theft",
+      "imageUrl": "https://picsum.photos/seed/vid3/600/337",
+      "imageHint": "identity theft"
+    }
+  ]
+}

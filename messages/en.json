@@ -1,0 +1,328 @@
+
+{
+  "Navigation": {
+    "home": "Home",
+    "verify": "Verify",
+    "report": "Report",
+    "database": "Scam DB",
+    "awareness": "Awareness",
+    "gallery": "Real vs Fake",
+    "admin": "Admin",
+    "emergency": "Emergency Alert"
+  },
+  "Login": {
+    "title": "Admin Login",
+    "subtitle": "Secure access for moderators only.",
+    "googleBtn": "Sign in with Google",
+    "error": "Access Denied. Please contact support."
+  },
+  "Home": {
+    "heroTitle": "Use Internet Safely, Identify Scams Easily.",
+    "heroSubtitle": "Verify any suspicious link or mobile number using our smart engine.",
+    "verifyButton": "Verify Now",
+    "placeholder": "Enter URL or Mobile number...",
+    "liveCounter": "10,500+ Scams Blocked",
+    "stats": {
+      "blocked": "Scams Blocked",
+      "active": "Active Reports",
+      "helped": "Users Helped",
+      "moneySaved": "Money Saved (Est.)",
+      "moneyValue": "$1.5M+"
+    },
+    "trending": {
+      "title": "Trending Scams",
+      "subtitle": "Latest fraudulent activities reported across the country.",
+      "readMore": "View Details",
+      "items": [
+        { "title": "Fake Investment App", "desc": "Apps promising 200% return in 24 hours. Reported 120 times.", "tag": "High Risk" },
+        { "title": "BTRC Verification SMS", "desc": "SMS asking for sensitive data pretending to be BTRC.", "tag": "Phishing" },
+        { "title": "WhatsApp Job Offer", "desc": "International numbers offering part-time remote work.", "tag": "Fraud" }
+      ]
+    },
+    "sections": {
+      "analysis": "Real-time Threat Analysis",
+      "categories": "Top Scam Categories",
+      "viewAll": "View All Categories →"
+    },
+    "categories": [
+      {
+        "title": "Online Betting & Gambling",
+        "tag": "High Risk",
+        "status": "Active",
+        "desc": "Promising 'guaranteed wins' or 'bonus' on fake betting sites.",
+        "how": "They use Facebook or YouTube ads to lure you into fake betting sites. Initially, they show small wins to build trust. Once you deposit a large amount, they block your ID or claim 'server down'.",
+        "safety": "Never invest money in unverified or unofficial betting apps. Remember, gambling sites are designed for you to lose.",
+        "report": "If you find a fake agent or your money is stuck, report the URL and agent number using our 'Report Scam' button."
+      },
+      {
+        "title": "Fake Job & Recruitment",
+        "tag": "Employment",
+        "status": "Alert",
+        "desc": "Using famous company logos to offer work-from-home jobs.",
+        "how": "They send messages for part-time jobs using famous logos. They claim you got the job without an interview but ask for a 'security deposit' or 'laptop fee'.",
+        "safety": "Official companies never ask for money before joining. Check if the email address is official (e.g., hr@company.com).",
+        "report": "If you receive a fake appointment letter, report it with a screenshot to warn others."
+      },
+      {
+        "title": "Crypto & Investment",
+        "tag": "Financial",
+        "status": "Critical",
+        "desc": "Promises of 'double your money' in 1 month via fake dashboards.",
+        "how": "Luring people with 'double money' or 'new crypto coins'. They show a fake dashboard where profits seem to increase, but you can never withdraw.",
+        "safety": "Check project whitepapers and global rankings. Never connect your wallet based on advice from Telegram 'experts'.",
+        "report": "Submit any suspicious wallet address or investment site to our portal."
+      },
+      {
+        "title": "Phishing & Identity Theft",
+        "tag": "Technical",
+        "status": "High",
+        "desc": "Fake websites mimicking banks to steal your PIN or Password.",
+        "how": "Hackers build exact replicas of bank or government sites. Once you enter your NID, PIN, or Password, they steal your data and empty your account.",
+        "safety": "Check domain names carefully before clicking (e.g., g00gle.com instead of google.com). Never give personal info on unknown links.",
+        "report": "Check suspicious links in our Verification Box and report if confirmed as a scam."
+      },
+      {
+        "title": "Social Media & Extortion",
+        "tag": "Cyber Crime",
+        "status": "Active",
+        "desc": "Blackmailing users with edited videos or recorded calls.",
+        "how": "Strangers call on Imo or WhatsApp, record compromising videos (or edit them), and then demand money to prevent release.",
+        "safety": "Don't pick up video calls from strangers. Think twice before sharing personal photos. Enable Two-Factor Authentication.",
+        "report": "Upload blackmail messages or ID links to our secure Evidence Vault."
+      },
+      {
+        "title": "Romance & Relationship",
+        "tag": "Social",
+        "status": "Alert",
+        "desc": "Posing as foreign beauties to demand 'customs clearance' fees.",
+        "how": "Scammers pose as foreigners, build trust over time, and claim they sent expensive gifts. Then, a fake 'customs officer' calls asking for 'duty' fees.",
+        "safety": "Never send money to someone you met online, especially for 'gift clearance' fees.",
+        "report": "Report such profiles or fake customs agent numbers on our website."
+      },
+      {
+        "title": "Buying & Selling Fraud",
+        "tag": "E-commerce",
+        "status": "Common",
+        "desc": "Incredible low-price offers on electronics that never arrive.",
+        "how": "Offering phones or electronics at unbelievably low prices. They take advance payment via bKash/Nagad but never send the product or send fakes.",
+        "safety": "Use Cash on Delivery only. Check page reviews and age before ordering.",
+        "report": "Add fake page or website links to our database and file a report."
+      },
+      {
+        "title": "Unexpected Money Scams",
+        "tag": "SMS/Call",
+        "status": "Active",
+        "desc": "Claims of winning lotteries you never participated in.",
+        "how": "SMS or calls claiming you won a large lottery. They ask for advance 'VAT' or 'Tax' to release the prize.",
+        "safety": "You don't win a lottery you didn't buy. Just delete such messages.",
+        "report": "Report the calling number or SMS sender to our portal."
+      },
+      {
+        "title": "AI Deepfake & Voice Scam",
+        "tag": "Next-Gen",
+        "status": "Emerging",
+        "desc": "Using AI to mimic relative's voice for urgent money requests.",
+        "how": "Using AI to mimic a relative's voice. They call saying they are in an emergency or hospital and need money urgently.",
+        "safety": "Always verify by calling the person via another known method before sending money.",
+        "report": "Submit the calling number to our database."
+      },
+      {
+        "title": "Immigration & Visa Fraud",
+        "tag": "Agencies",
+        "status": "High",
+        "desc": "Guaranteed visa advertisements by fake consultancy firms.",
+        "how": "Advertising '100% Guaranteed Visa' via fake firms. They take large advances and provide fake visas before disappearing.",
+        "safety": "Always contact official visa centers (e.g., VFS Global). Never give advance money to brokers.",
+        "report": "Report any fake agency or broker information to our portal."
+      }
+    ]
+  },
+  "Categories": {
+    "title": "Scam Library",
+    "subtitle": "Detailed information on all types of digital fraud.",
+    "how": "How they scam",
+    "safety": "Safety Guide",
+    "report": "How to report",
+    "viewDetails": "View Details",
+    "reportThis": "Report This Scam"
+  },
+  "Check": {
+    "title": "Smart Verification Engine",
+    "subtitle": "Check any link, phone number, or social ID before you trust.",
+    "placeholder": "Enter URL, Mobile number, or User ID...",
+    "button": "Verify Now",
+    "recent": "Recent Checks",
+    "privacy": "Your privacy is protected. No personal data is stored during verification.",
+    "validating": "Analyzing with AI Security...",
+    "errors": {
+      "empty": "Please enter something to verify.",
+      "failed": "Verification failed. Please try again."
+    }
+  },
+  "Recovery": {
+    "title": "Money Stolen? What to do now?",
+    "subtitle": "Follow these emergency steps to minimize damage.",
+    "step1": "Block Account",
+    "step1Desc": "Call your bank or MFS (bKash/Nagad) helpline immediately to block your account.",
+    "step2": "File a GD",
+    "step2Desc": "Go to your nearest police station and file a General Diary (GD) with evidence.",
+    "step3": "Record on Portal",
+    "step3Desc": "Submit your report here with evidence to help police investigations.",
+    "callNow": "Call Help Line"
+  },
+  "Gallery": {
+    "title": "Real vs Fake Gallery",
+    "subtitle": "See the visual differences between legitimate messages and scams.",
+    "real": "REAL",
+    "fake": "FAKE",
+    "spotDifference": "Spot the Difference",
+    "bKash": {
+      "title": "bKash Cashback SMS",
+      "desc": "Scammers use similar IDs but the links are always suspicious."
+    },
+    "bank": {
+      "title": "Bank Alert SMS",
+      "desc": "Official banks never ask for your PIN via SMS links."
+    }
+  },
+  "Admin": {
+    "title": "Moderation Panel",
+    "subtitle": "Review and approve incoming reports to maintain database quality.",
+    "pending": "Pending Reports",
+    "approve": "Approve",
+    "reject": "Reject",
+    "noReports": "No pending reports at the moment.",
+    "successApprove": "Report approved and added to live DB.",
+    "successReject": "Report rejected."
+  },
+  "Report": {
+    "title": "Scam Report Panel",
+    "subtitle": "Your report helps keep Digital Bangladesh safe.",
+    "steps": {
+      "type": "Type",
+      "details": "Details",
+      "evidence": "Evidence",
+      "submit": "Submit"
+    },
+    "scamTypeTitle": "Select Scam Type",
+    "scamTypeSubtitle": "Where did they contact you?",
+    "scammerInfoTitle": "Scammer Information",
+    "scammerInfoSubtitle": "Provide scammer name, number or link.",
+    "labelId": "Number/Link/User ID",
+    "placeholderId": "eg. 01700..., https://fake.site",
+    "labelDesc": "Detailed Description",
+    "placeholderDesc": "How did they contact you and what did they claim?",
+    "evidenceTitle": "Upload Evidence",
+    "evidenceSubtitle": "Screenshots, audio or PDF files (Max 10MB)",
+    "selectFile": "Select File",
+    "dropFile": "or drag and drop here",
+    "settingsTitle": "Submission Settings",
+    "settingsSubtitle": "Your privacy is our priority.",
+    "anonymous": "Anonymous Reporting",
+    "anonymousDesc": "Your name or email will be hidden in the database.",
+    "public": "Public Contribution",
+    "publicDesc": "Your name will be visible on the dashboard as a reporter.",
+    "back": "Back",
+    "next": "Next Step",
+    "submitBtn": "Submit Report",
+    "submitting": "Submitting...",
+    "successTitle": "Thank You!",
+    "successDesc": "Your awareness will protect many others from big danger. Our moderators will verify and add the report to the database.",
+    "reportAnother": "Report Another"
+  },
+  "Database": {
+    "title": "Scam Database",
+    "subtitle": "List of already verified scam numbers and links.",
+    "filter": "Filter",
+    "realtimeAlert": "Real-time Alert",
+    "searchPlaceholder": "Search by number or link...",
+    "noResults": "Sorry, no results found.",
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "platform": "Platform",
+      "target": "Target (Number/Link)",
+      "status": "Status"
+    }
+  },
+  "Awareness": {
+    "title": "Awareness Hub",
+    "subtitle": "Correct use of knowledge is the biggest weapon against scams.",
+    "blogTitle": "Blogs & Articles",
+    "downloadTitle": "Downloads Section",
+    "readMore": "Read Full →",
+    "goldenRules": "3 Golden Rules to Stay Safe:",
+    "rules": [
+      "Never share OTP or PIN with anyone.",
+      "Verify any offer on our portal before accepting.",
+      "Report immediately if anything seems suspicious."
+    ],
+    "downloads": [
+      { "title": "Awareness Poster (PDF)", "size": "1.2 MB" },
+      { "title": "Leaflet: Protection from Scams", "size": "500 KB" },
+      { "title": "Emergency Helpline List", "size": "200 KB" }
+    ]
+  },
+  "Verification": {
+    "aiAnalysis": "AI Security Analysis",
+    "actionPlan": "Your Protection Plan (Action Steps)",
+    "smartAction": "Smart Action: Report It",
+    "reportDesc": "This is a confirmed scam. Report to authorities to protect others.",
+    "btrc": "BTRC (100)",
+    "cyberPolice": "Cyber Police Portal",
+    "communityReport": "Community Reports",
+    "last24h": "reported in the last 24 hours.",
+    "viewHistory": "View Report History →"
+  },
+  "Footer": {
+    "description": "The largest anti-scam portal in Bangladesh. Our goal is to keep citizens informed and safe through correct use of technology.",
+    "quickLinks": "Quick Links",
+    "links": {
+      "dashboard": "Smart Dashboard",
+      "verify": "Verify Link",
+      "report": "Report Scam",
+      "awareness": "Awareness Hub"
+    },
+    "policies": "Policies",
+    "policyLinks": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "disclaimer": "Disclaimer"
+    },
+    "emergency": "Emergency Helpline",
+    "btrcLabel": "BTRC (Cyber Crime)",
+    "btrcNumber": "999 (or 100)",
+    "emergencyDesc": "Contact your nearest police station immediately if you are a victim of a major cyber crime.",
+    "copyright": "Scam Shield Command. All rights reserved."
+  },
+  "LiveAlerts": {
+    "label": "Live Alert",
+    "alerts": [
+      "Fake bKash cashback SMS reported in Dhaka.",
+      "New 'Job from home' scam detected on WhatsApp.",
+      "Fake bank login link 'city-bank-bd.net' blocked.",
+      "Investment app 'Double Profit' confirmed as scam.",
+      "Identity theft reported via fake Facebook login."
+    ]
+  },
+  "Heatmap": {
+    "title": "Live Scam Heatmap",
+    "liveUpdate": "Live Update",
+    "loading": "Loading Threat Map...",
+    "districtRisk": "District Risk Level",
+    "reports": "Reports",
+    "districts": {
+      "Dhaka": "Dhaka",
+      "Chittagong": "Chittagong",
+      "Sylhet": "Sylhet",
+      "Rajshahi": "Rajshahi",
+      "Khulna": "Khulna",
+      "Barisal": "Barisal"
+    },
+    "risks": {
+      "High": "High",
+      "Medium": "Medium",
+      "Low": "Low"
+    }
+  }
+}
